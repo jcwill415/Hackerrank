@@ -15,9 +15,17 @@ input_string = input()
 print('Hello, World.')
 
 # TODO: Write a line of code here that prints the contents of input_string to stdout.
-input - "Welcome to 30 Days of Code!"
+## Run Code 1:
+input = "Welcome to 30 Days of Code!"
 print(input)
 
 # Output(stdout)
 Hello, World.
 Welcome to 30 Days of Code!
+
+> failed hidden test case
+
+## Run Code 2:
+print(input_string)
+
+>Solved
