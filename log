@@ -29,6 +29,48 @@ Welcome to 30 Days of Code!
 ## Run Code 2:
 print(input_string)
 
+  ## AVeryBigSum
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the aVeryBigSum function below.
+def aVeryBigSum(ar):
+    sum = 0
+    for element in ar:
+        sum += element
+    return sum
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = aVeryBigSum(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+- ## Input (stdin):
+5
+1000000001 1000000002 1000000003 1000000004 1000000005
+
+- ## Output (stdout):
+5000000015
+
+- ## Expected Output:
+5000000015
+
+  >Solved.
+
 ##R1D1
 ### 7/20/19
   ## Day 1: Data Types  
